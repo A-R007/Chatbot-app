@@ -56,15 +56,6 @@ body {
     animation: shimmer 3s linear 1; /* Slow shimmer that runs once */
 }
 
-@keyframes shimmer {
-    0% {
-        background-position: -300px -300px;
-    }
-    100% {
-        background-position: 300px 300px;
-    }
-}
-
 .user-message {
     align-self: flex-end;
     background: linear-gradient(135deg, #7289da, #5865f2);
